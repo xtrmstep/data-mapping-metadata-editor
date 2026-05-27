@@ -30,6 +30,7 @@ class Source(Base):
     table_name: Mapped[str | None] = mapped_column(String, nullable=True)
 
     # Kafka-specific
+    kafka: Mapped[str | None] = mapped_column(String, nullable=True)
     brokers: Mapped[str | None] = mapped_column(String, nullable=True)
     topic: Mapped[str | None] = mapped_column(String, nullable=True)
 

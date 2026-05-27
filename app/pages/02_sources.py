@@ -98,6 +98,7 @@ for s in source_rows:
     if source_type == "kafka":
         row = {
             "cluster": s.cluster_name,
+            "kafka": s.kafka,
             "brokers": s.brokers,
             "topic": s.topic,
             "field_count": len(s.schema_fields),

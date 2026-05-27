@@ -21,6 +21,7 @@ SOURCE_TYPE_OPTIONS: dict[str, dict] = {
         "columns": [
             {"name": "source_type", "description": "Source type. For this import, value should identify Kafka."},
             {"name": "cluster_name", "description": "Kafka cluster name or identifier."},
+            {"name": "source_kafka", "description": "Kafka service or platform name."},
             {"name": "source_kafka_brokers", "description": "Kafka broker list."},
             {"name": "source_kafka_topic", "description": "Kafka topic name."},
             {"name": "destination_server", "description": "Destination server name or identifier."},

@@ -38,6 +38,7 @@ class KafkaSourceImportStrategy:
         return self.source_key(row), Source(
             source_type="kafka",
             cluster_name=str(row["cluster_name"]).strip() or None,
+            kafka=str(row.get("source_kafka") or "").strip() or None,
             brokers=str(row["source_kafka_brokers"]).strip() or None,
             topic=topic,
         )

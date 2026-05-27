@@ -1,7 +1,7 @@
-source_type,cluster_name,source_kafka_brokers,source_kafka_topic,destination_server,destination_database,destination_table
-kafka,sbk_prd_msk_01,"msk1:9092,msk2:9092,msk3:9092",betting.ticket.created,clickhouse_prd_01,analytics,ticket_created_events
-kafka,sbk_prd_msk_01,"msk1:9092,msk2:9092,msk3:9092",betting.ticket.settled,clickhouse_prd_01,analytics,ticket_settled_events
-kafka,sbk_prd_msk_01,"msk1:9092,msk2:9092,msk3:9092",betting.odds.changed,clickhouse_prd_01,analytics,odds_changed_events
-kafka,pay_prd_msk_02,"pay1:9092,pay2:9092,pay3:9092",payments.transaction.created,clickhouse_prd_03,analytics,transaction_created_events
-kafka,pay_prd_msk_02,"pay1:9092,pay2:9092,pay3:9092",payments.refund.issued,clickhouse_prd_03,analytics,refund_issued_events
-kafka,risk_prd_msk_03,"risk1:9092,risk2:9092",risk.alert.triggered,clickhouse_prd_04,analytics,alert_triggered_events
+source_type,cluster_name,source_kafka,source_kafka_brokers,source_kafka_topic,destination_server,destination_database,destination_table
+kafka,sbk_prd_msk_01,sbk_kafka,"msk1:9092,msk2:9092,msk3:9092",betting.ticket.created,clickhouse_prd_01,analytics,ticket_created_events
+kafka,sbk_prd_msk_01,sbk_kafka,"msk1:9092,msk2:9092,msk3:9092",betting.ticket.settled,clickhouse_prd_01,analytics,ticket_settled_events
+kafka,sbk_prd_msk_01,sbk_kafka,"msk1:9092,msk2:9092,msk3:9092",betting.odds.changed,clickhouse_prd_01,analytics,odds_changed_events
+kafka,pay_prd_msk_02,pay_kafka,"pay1:9092,pay2:9092,pay3:9092",payments.transaction.created,clickhouse_prd_03,analytics,transaction_created_events
+kafka,pay_prd_msk_02,pay_kafka,"pay1:9092,pay2:9092,pay3:9092",payments.refund.issued,clickhouse_prd_03,analytics,refund_issued_events
+kafka,risk_prd_msk_03,risk_kafka,"risk1:9092,risk2:9092",risk.alert.triggered,clickhouse_prd_04,analytics,alert_triggered_events
