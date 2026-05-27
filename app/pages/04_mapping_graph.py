@@ -239,6 +239,14 @@ _config = Config(
     physics=True,
     hierarchical=False,
 )
+_config.physics["barnesHut"] = {
+    "avoidOverlap": 1,
+    "gravitationalConstant": -8000,
+    "springLength": 250,
+    "springConstant": 0.05,
+    "damping": 0.09,
+    "centralGravity": 0.3,
+}
 
 # ── Render ──────────────────────────────────────────────────────────────────
 st.subheader("Graph")
