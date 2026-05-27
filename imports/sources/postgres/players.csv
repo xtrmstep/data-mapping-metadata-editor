@@ -1,0 +1,6 @@
+field_name,field_type,nullable,description
+player_id,bigint,false,Player identifier
+country_code,text,true,ISO country code
+registration_date,date,false,Date of player registration
+vip_level,integer,true,VIP level code
+self_excluded,boolean,false,Self exclusion flag

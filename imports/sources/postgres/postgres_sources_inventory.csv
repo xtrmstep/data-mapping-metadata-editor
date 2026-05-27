@@ -1,0 +1,8 @@
+source_type,cluster_name,source_server,source_database,source_schema,source_table,destination_server,destination_database,destination_table
+postgres,ews_prd_dc,pg_ews_prd_01,sportsbook,public,tickets,clickhouse_prd_01,analytics,ticket
+postgres,ews_prd_dc,pg_ews_prd_01,sportsbook,trading,odds_snapshot,clickhouse_prd_01,analytics,odds_snapshot
+postgres,ews_prd_dc,pg_ews_prd_01,crm,public,players,clickhouse_prd_02,analytics,players
+postgres,pay_prd_dc,pg_pay_prd_02,payments,ledger,transactions,clickhouse_prd_03,analytics,transactions
+postgres,pay_prd_dc,pg_pay_prd_02,payments,ledger,refunds,clickhouse_prd_03,analytics,refunds
+postgres,risk_prd_dc,pg_risk_prd_03,risk,rules,limits,clickhouse_prd_04,analytics,limits
+postgres,risk_prd_dc,pg_risk_prd_03,risk,monitoring,alerts,clickhouse_prd_04,analytics,alerts

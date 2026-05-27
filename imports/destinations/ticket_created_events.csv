@@ -1,0 +1,10 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+ticket_created_events,raw_betting,event_id,String,false,Event identifier
+ticket_created_events,raw_betting,ticket.ticket_id,Int64,false,Ticket id
+ticket_created_events,raw_betting,ticket.player_id,Int64,false,Player id
+ticket_created_events,raw_betting,ticket.stake,Float64,true,Stake value
+ticket_created_events,raw_betting,ticket.currency,String,true,Currency code
+ticket_created_events,raw_betting,selections[].market_id,Int64,true,Selection market id
+ticket_created_events,raw_betting,selections[].selection_id,Int64,true,Selection id
+ticket_created_events,raw_betting,selections[].odds,Float64,true,Selection odds
+ticket_created_events,raw_betting,created_at,DateTime,false,Event timestamp

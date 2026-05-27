@@ -1,0 +1,7 @@
+field_name,field_type,nullable,description
+snapshot_id,bigint,false,Snapshot identifier
+event_id,bigint,false,Event identifier
+market_id,bigint,false,Market identifier
+selection_id,bigint,false,Selection identifier
+odds,numeric,false,Current decimal odds
+captured_at,timestamp,false,Snapshot capture timestamp

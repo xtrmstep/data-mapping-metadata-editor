@@ -1,0 +1,10 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+transaction_created_events,raw_payments,event_id,String,false,Event id
+transaction_created_events,raw_payments,transaction.transaction_id,UUID,false,Transaction UUID
+transaction_created_events,raw_payments,transaction.player_id,Int64,false,Player id
+transaction_created_events,raw_payments,transaction.amount,"Decimal(18,2)",false,Amount
+transaction_created_events,raw_payments,transaction.currency,String,false,Currency
+transaction_created_events,raw_payments,transaction.payment_method.type,String,true,Method type
+transaction_created_events,raw_payments,transaction.payment_method.provider,String,true,Provider
+transaction_created_events,raw_payments,risk_flags[],Array(String),true,Risk flags
+transaction_created_events,raw_payments,created_at,DateTime,false,Creation timestamp

@@ -1,0 +1,6 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+odds_changed_events,raw_betting,event_id,String,false,Event identifier
+odds_changed_events,raw_betting,market_id,Int64,false,Market id
+odds_changed_events,raw_betting,selection_id,Int64,false,Selection id
+odds_changed_events,raw_betting,odds,Float64,false,Updated odds
+odds_changed_events,raw_betting,changed_at,DateTime,false,Change timestamp

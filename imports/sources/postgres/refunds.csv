@@ -1,0 +1,6 @@
+field_name,field_type,nullable,description
+refund_id,uuid,false,Refund UUID
+transaction_id,uuid,false,Related transaction UUID
+refund_amount,numeric,false,Refund amount
+refund_reason,text,true,Refund reason
+created_at,timestamp,false,Refund creation timestamp

@@ -1,0 +1,8 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+alert_triggered_events,raw_risk,alert_id,Int64,false,Alert id
+alert_triggered_events,raw_risk,severity,String,false,Severity
+alert_triggered_events,raw_risk,rule.name,String,false,Rule name
+alert_triggered_events,raw_risk,rule.version,String,true,Rule version
+alert_triggered_events,raw_risk,entities[].entity_type,String,true,Entity type
+alert_triggered_events,raw_risk,entities[].entity_id,String,true,Entity id
+alert_triggered_events,raw_risk,triggered_at,DateTime,false,Triggered timestamp

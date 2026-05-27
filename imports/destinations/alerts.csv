@@ -1,0 +1,6 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+alerts,silver_risk,alert_id,Int64,false,Alert identifier
+alerts,silver_risk,rule_name,String,false,Triggered rule name
+alerts,silver_risk,severity,String,false,Alert severity
+alerts,silver_risk,payload,String,true,Raw monitoring payload
+alerts,silver_risk,created_at,DateTime,false,Alert timestamp

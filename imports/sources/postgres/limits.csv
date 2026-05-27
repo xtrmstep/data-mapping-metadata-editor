@@ -1,0 +1,6 @@
+field_name,field_type,nullable,description
+limit_id,bigint,false,Limit rule identifier
+market_code,text,false,Market code
+max_stake,numeric,false,Maximum allowed stake
+currency,text,false,Currency code
+effective_from,timestamp,false,Limit activation timestamp

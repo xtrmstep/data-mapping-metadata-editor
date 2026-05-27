@@ -1,0 +1,6 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+players,silver_players,player_id,Int64,false,Player identifier
+players,silver_players,country_code,String,true,ISO country code
+players,silver_players,registration_date,Date,false,Date of player registration
+players,silver_players,vip_level,Int32,true,VIP level code
+players,silver_players,self_excluded,Bool,false,Self exclusion flag

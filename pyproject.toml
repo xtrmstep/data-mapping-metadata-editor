@@ -1,0 +1,21 @@
+[project]
+name = "lakehouse-mapping-tool"
+version = "0.1.0"
+description = "Lightweight Streamlit workspace for source-to-lakehouse mappings"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "streamlit",
+  "streamlit-agraph",
+  "pandas",
+  "pyyaml",
+  "python-slugify",
+  "psycopg[binary]",
+  "sqlalchemy>=2.0",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

@@ -1,0 +1,7 @@
+field_name,field_type,nullable,description
+transaction_id,uuid,false,Transaction UUID
+player_id,bigint,false,Player identifier
+amount,numeric,false,Transaction amount
+currency,text,false,Currency code
+transaction_type,text,false,Type: deposit or withdrawal
+created_at,timestamp,false,Transaction timestamp

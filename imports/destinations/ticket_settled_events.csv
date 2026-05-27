@@ -1,0 +1,5 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+ticket_settled_events,raw_betting,event_id,String,false,Event identifier
+ticket_settled_events,raw_betting,ticket_id,Int64,false,Ticket id
+ticket_settled_events,raw_betting,settled_at,DateTime,false,Settlement timestamp
+ticket_settled_events,raw_betting,payout_amount,Float64,true,Payout amount

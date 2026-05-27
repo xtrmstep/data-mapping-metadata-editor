@@ -1,0 +1,7 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+transactions,gold_payments,transaction_id,UUID,false,Transaction UUID
+transactions,gold_payments,player_id,Int64,false,Player identifier
+transactions,gold_payments,amount,"Decimal(18,2)",false,Transaction amount
+transactions,gold_payments,currency,String,false,Currency code
+transactions,gold_payments,transaction_type,String,false,Type: deposit or withdrawal
+transactions,gold_payments,created_at,DateTime,false,Transaction timestamp

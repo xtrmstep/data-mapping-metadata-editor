@@ -1,0 +1,6 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+refund_issued_events,raw_payments,event_id,String,false,Event id
+refund_issued_events,raw_payments,refund_id,UUID,false,Refund UUID
+refund_issued_events,raw_payments,transaction_id,UUID,false,Transaction UUID
+refund_issued_events,raw_payments,refund_amount,"Decimal(18,2)",false,Refund amount
+refund_issued_events,raw_payments,issued_at,DateTime,false,Issue timestamp

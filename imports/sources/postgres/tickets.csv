@@ -1,0 +1,7 @@
+field_name,field_type,nullable,description
+ticket_id,bigint,false,Unique ticket identifier
+player_id,bigint,false,Player identifier
+created_at,timestamp,false,Ticket creation timestamp
+stake_amount,numeric,true,Stake amount in source currency
+currency,text,true,ISO currency code
+status,text,false,Ticket lifecycle status

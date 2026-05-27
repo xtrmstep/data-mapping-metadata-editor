@@ -1,0 +1,7 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+tickets,silver_betting,ticket_id,Int64,false,Unique ticket identifier
+tickets,silver_betting,player_id,Int64,false,Player identifier
+tickets,silver_betting,created_at,DateTime,false,Ticket creation timestamp
+tickets,silver_betting,stake_amount,"Decimal(18,2)",true,Stake amount in source currency
+tickets,silver_betting,currency,String,true,ISO currency code
+tickets,silver_betting,status,String,false,Ticket lifecycle status

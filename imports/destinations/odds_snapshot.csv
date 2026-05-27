@@ -1,0 +1,7 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+odds_snapshot,silver_betting,snapshot_id,Int64,false,Snapshot identifier
+odds_snapshot,silver_betting,event_id,Int64,false,Event identifier
+odds_snapshot,silver_betting,market_id,Int64,false,Market identifier
+odds_snapshot,silver_betting,selection_id,Int64,false,Selection identifier
+odds_snapshot,silver_betting,odds,"Decimal(18,2)",false,Current decimal odds
+odds_snapshot,silver_betting,captured_at,DateTime,false,Snapshot capture timestamp

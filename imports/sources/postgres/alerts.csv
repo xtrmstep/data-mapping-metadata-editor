@@ -1,0 +1,6 @@
+field_name,field_type,nullable,description
+alert_id,bigint,false,Alert identifier
+rule_name,text,false,Triggered rule name
+severity,text,false,Alert severity
+payload,jsonb,true,Raw monitoring payload
+created_at,timestamp,false,Alert timestamp

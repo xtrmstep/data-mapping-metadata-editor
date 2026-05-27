@@ -1,0 +1,7 @@
+streamlit
+streamlit-agraph
+pandas
+pyyaml
+python-slugify
+psycopg[binary]
+sqlalchemy>=2.0

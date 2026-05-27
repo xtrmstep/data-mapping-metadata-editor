@@ -1,0 +1,6 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+refunds,gold_payments,refund_id,UUID,false,Refund UUID
+refunds,gold_payments,transaction_id,UUID,false,Related transaction UUID
+refunds,gold_payments,refund_amount,"Decimal(18,2)",false,Refund amount
+refunds,gold_payments,refund_reason,String,true,Refund reason
+refunds,gold_payments,created_at,DateTime,false,Refund creation timestamp

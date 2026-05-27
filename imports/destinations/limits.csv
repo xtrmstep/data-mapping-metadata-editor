@@ -1,0 +1,6 @@
+destination_table,destination_database,field_name,field_type,nullable,description
+limits,silver_risk,limit_id,Int64,false,Limit rule identifier
+limits,silver_risk,market_code,String,false,Market code
+limits,silver_risk,max_stake,"Decimal(18,2)",false,Maximum allowed stake
+limits,silver_risk,currency,String,false,Currency code
+limits,silver_risk,effective_from,DateTime,false,Limit activation timestamp
